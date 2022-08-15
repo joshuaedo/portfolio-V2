@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Caesar Dressing
+- Font Author: Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name "Caesar Dressing"
+- Font Source: http://fonts.gstatic.com/s/caesardressing/v21/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
