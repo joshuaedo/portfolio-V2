@@ -2,19 +2,19 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: #313639;
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
   font-size: 5.625rem;
   color: white;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   color: white;
   font-weight: normal;
@@ -22,13 +22,13 @@ h2 {
 
 h3 {
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
   color: white;
-  font-family: 'Poppins', sans-serif;
-  margin: 0 25px 25px 25px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 1.5625rem 1.5625rem 1.5625rem;
   text-decoration: none;
 }
 
@@ -42,38 +42,37 @@ p {
 
 hr {
   width: 4%;
-  border-top: 8px solid white;
+  border-top: 0.5rem solid white;
   border-top-style: dotted;
   border-bottom: none;
-  margin: 100px auto;
+  margin: 6.25rem auto;
 }
 
 .top-container {
-  background-color: #A66CFF;
-  padding-top: 100px;
+  background-color: #a66cff;
+  padding-top: 6.25rem;
   position: relative;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 18.75rem;
+  top: 3.125rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  top: 400px;
+  left: 18.75rem;
+  top: 25rem;
 }
 
 .middle-container {
-  background-color: #9C9EFE;
-  padding: 100px 0;
+  background-color: #9c9efe;
 }
 
 .killua {
   width: 12.5%;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .killua:hover {
@@ -91,36 +90,12 @@ hr {
   text-align: left;
 }
 
-.web-development {
-  width: 25%;
-  border-radius: 20px;
-  float: left;
-  margin-right: 30px;
-  transition: transform .2s ease-in-out;
-}
-
-.web-development:hover {
-  transform: scale(1.3);
-}
-
-.photography {
-  width: 25%;
-  border-radius: 20px;
-  float: right;
-  margin-left: 30px;
-  transition: transform .2s ease-in-out;
-}
-
-.photography:hover {
-  transform: scale(1.3);
-}
-
 .graphic-design {
   width: 25%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   float: left;
-  margin-right: 30px;
-  transition: transform .2s ease-in-out;
+  margin-right: 1.875rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .graphic-design:hover {
@@ -129,10 +104,10 @@ hr {
 
 .article-writing {
   width: 25%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   float: right;
-  margin-left: 30px;
-  transition: transform .2s ease-in-out;
+  margin-left: 1.875rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .article-writing:hover {
@@ -140,27 +115,27 @@ hr {
 }
 
 .need {
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .btn {
-  background: #A66CFF;
-  background-image: -webkit-linear-gradient(top, #A66CFF, #9C9EFE);
-  background-image: -moz-linear-gradient(top, #A66CFF, #9C9EFE);
-  background-image: -ms-linear-gradient(top, #A66CFF, #9C9EFE);
-  background-image: -o-linear-gradient(top, #A66CFF, #9C9EFE);
-  background-image: linear-gradient(to bottom, #A66CFF, #9C9EFE);
+  background: #a66cff;
+  background-image: -webkit-linear-gradient(top, #a66cff, #9c9efe);
+  background-image: -moz-linear-gradient(top, #a66cff, #9c9efe);
+  background-image: -ms-linear-gradient(top, #a66cff, #9c9efe);
+  background-image: -o-linear-gradient(top, #a66cff, #9c9efe);
+  background-image: linear-gradient(to bottom, #a66cff, #9c9efe);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
-  border-radius: 8px;
-  text-shadow: 1px 1px 3px #666666;
-  -webkit-box-shadow: 9px 7px 4px #666666;
-  -moz-box-shadow: 9px 7px 4px #666666;
-  box-shadow: 9px 7px 4px #666666;
-  font-family: 'Poppins', sans-serif;
+  border-radius: 0.5rem;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem #666666;
+  -webkit-box-shadow: 0.5625rem 0.4375rem 0.25rem #666666;
+  -moz-box-shadow: 0.5625rem 0.4375rem 0.25rem #666666;
+  box-shadow: 0.5625rem 0.4375rem 0.25rem #666666;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
-  font-size: 22px;
-  padding: 21px;
+  font-size: 1.375rem;
+  padding: 1.3125rem;
   text-decoration: none;
 }
 
@@ -169,11 +144,63 @@ hr {
 }
 
 .bottom-container {
-  background-color: #A66CFF;
-  padding: 30px 0 10px 0;
+  background-color: #a66cff;
+  padding: 1.875rem 0 0.625rem 0;
 }
 
 .copywright {
   font-size: 0.75rem;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  .top-container {
+    height: 100vh;
+  }
+  .mountain {
+    margin-top: 13vh;
+    width: 90%;
+  }
+  .top-cloud {
+    width: 25%;
+    margin-top: 20vh;
+  }
+  .bottom-cloud {
+    width: 25%;
+    margin-top: 20vh;
+  }
+  .header {
+    margin-top: 24vh;
+  }
+  .header > h1 {
+    font-size: 6rem;
+  }
+  .killua {
+    width: 25%;
+  }
+  .graphic-design,
+  .article-writing {
+    width: 50%;
+    float: none;
+  }
+  .graphic-design:hover, .article-writing:hover {
+    transform: scale(1.3);
+  }
+  
+.skill-row {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.middle-container {
+  background-color: #9c9efe;
+  height: 250vh;
+}
+p {
+  font-size: 1.23rem;
+}
+.bio {
+  width: 60%;
+  margin: 0 auto;
+}
 }
