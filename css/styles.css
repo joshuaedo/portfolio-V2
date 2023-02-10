@@ -155,7 +155,7 @@ hr {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
   .top-container {
-    height: 100vh;
+    height: 90vh;
   }
   .mountain {
     margin-top: 25.1vh;
@@ -195,7 +195,7 @@ hr {
 }
 .middle-container {
   background-color: #9c9efe;
-  height: 200vh;
+  height: 165vh;
 }
 p {
   font-size: 1.5rem;
