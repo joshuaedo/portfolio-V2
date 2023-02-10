@@ -158,7 +158,7 @@ hr {
     height: 100vh;
   }
   .mountain {
-    margin-top: 13vh;
+    margin-top: 25.1vh;
     width: 90%;
   }
   .top-cloud {
@@ -167,16 +167,17 @@ hr {
   }
   .bottom-cloud {
     width: 25%;
-    margin-top: 20vh;
+    margin-top: 30vh;
   }
   .header {
     margin-top: 24vh;
   }
   .header > h1 {
-    font-size: 6rem;
+    font-size: 10rem;
   }
   .killua {
-    width: 25%;
+    width: 35%;
+    margin-top: 3rem;
   }
   .graphic-design,
   .article-writing {
@@ -197,7 +198,7 @@ hr {
   height: 200vh;
 }
 p {
-  font-size: 1.23rem;
+  font-size: 1.5rem;
 }
 .bio {
   width: 60%;
